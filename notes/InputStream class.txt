@@ -1,0 +1,8 @@
+InputStream class
+InputStream class are mainly used to read data from file. 
+commonly used stream class are 
+1.int read();
+2.void close();
+FileInput class is mainly used to read any type of data from single file.
+
+FileReader- FileReader class is mainly used to read character oriented data from a single file.

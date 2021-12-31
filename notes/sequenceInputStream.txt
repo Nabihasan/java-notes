@@ -1,0 +1,2 @@
+Sequence input Stram class is mainly use to read data from multiple class.
+

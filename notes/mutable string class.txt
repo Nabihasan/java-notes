@@ -1,0 +1,19 @@
+Mutable string classes in java
+String Buffer and string Builder are class in java 
+
+
+Mutable means if we perfrom any operations at one String it will suddenly change original
+string content . there is no need for reassignment.
+
+ex- class Demo
+{
+
+	public static void main(String gg[])
+	{
+		//StringBuffer sb=new StringBuffer("hello");
+		StringBuilder sb=new StringBuilder("hello");
+		sb.append("java");
+		//sb.reverse();
+		System.out.println(sb);
+       }
+}

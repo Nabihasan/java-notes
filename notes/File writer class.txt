@@ -1,0 +1,5 @@
+FileWriter class
+file writer class is used to  write character oriented data in single file.
+
+write method of File writer class contain String in argument.
+

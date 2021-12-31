@@ -1,0 +1,31 @@
+toString method of object class 
+when we will print any reference variable inside the System.out.println then compiler will call 
+toString method on that reference variable.
+toString method of object class always return a alpha numeric String reference as written
+if we want to return a type String value from toString method we will override into a class.
+
+
+program-
+class Demo extends Object
+{
+	String n;
+	Demo(String n)
+	{
+		this.n=n;
+	}
+	public String toString()
+	{
+		return n;
+	}
+		public static void main(String [] gg)
+		{
+			Demo d=new Demo("hello");
+			System.out.println(d);
+			//System.out.println(d.toString());
+			String s=new String("hello");
+			System.out.println(s);
+			//System.out.println(s.toString());					
+
+		}
+}
+    

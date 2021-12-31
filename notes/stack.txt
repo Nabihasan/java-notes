@@ -1,0 +1,6 @@
+stack
+stack is a collection which is used to store data in last in first out.
+(LIFO) manner last in first out .
+but in java stack is a class through which we can perform push or pop 
+operations
+

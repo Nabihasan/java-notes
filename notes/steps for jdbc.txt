@@ -1,0 +1,45 @@
+steps for jdbc connectivity
+1.load the driver - as we know Driver is a class which is store in jar file. so we will load driver
+ class from jar file with the help of static forName method of java run time class.
+forName method throughs class not found checked exception. 
+
+class - it is a java run time class which is used to optimize behaviour of a class at rum time.
+
+ Class.forName("com.mysql.jdbc.Driver");
+
+2.Connection established-when we will call static get
+that contains url as string in arguments and returned implementation class object of Connection 
+interface.
+
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/adv","root","1234");
+
+in url localhost is a server for mysql
+3306 is port no. for mysql
+adv is database name.
+root is username of mysql
+123 is password of mysql
+
+3. write a query-we will write a query for insert,delete and update in String.
+
+
+here is code
+
+forName =Class.forName("com.mysql.jdbc.Driver");
+System.out.println("driver loaded");
+
+Connection con=DriverManger.getConnection("jdbc:mysql://localhost:3306/jdbcname","root","12344");
+System.out.println("connection established");
+
+String qr="insert into emp values(101,"hero")";
+System.out.println("write query.");
+
+
+Statement st=con.createStatement();
+System.out.println("make a statement object");
+
+int i=st.excuteUpdate(qr)
+System.out.println(i+"record added");
+
+
+
+

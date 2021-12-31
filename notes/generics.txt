@@ -1,0 +1,10 @@
+Generics -
+generics is a technology which is introduce in jdk 1.5 it is mainly used to type safe object. 
+when we will use generic in our program than there is no need for type conversion and down 
+casting.(type casting and down casting)
+
+as we know we can store child class object in parent class reference variable this process
+is called upcasting.
+ 
+but if we want to store or convert upcasted reference variable into child class reference variable
+we can manully typecast in child class reference variable this process is called downcasting.

@@ -1,0 +1,25 @@
+String 
+string is group of characters or squence of data but in java string is a immutable class.
+immutable means if we performe any operation.
+at one String it will not change original string contain.
+if we want changes we will assign or reassign at in same or other String
+
+
+we can create String in java in  ways  with the help 
+1. by String literal---String s="hello";
+2.by new keyword ------String s=new String("hello");
+
+
+
+
+comprision of two java String.
+we can compare between two java String in three ways.
+1. by equals method-we can compare containt of two java String if both java string containt will 
+same it will return true otherwise return false.
+it is also known as containt wise checking.
+2.by equal operator(==)- we can compare references of two Strings if both String references will
+same it will return true otherwise return false.
+it is also known as reference wise checking.
+3.  by compare two methods-- we can compare length and character weightage of two String if both 
+String are equal in length or character wiegtage then it will return zero otherwise return a positive 
+or negative.

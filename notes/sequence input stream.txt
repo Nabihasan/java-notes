@@ -1,0 +1,2 @@
+Sequnce input stream 
+sequnece input stream class is mainly used to read data from multiple files. 

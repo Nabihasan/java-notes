@@ -1,0 +1,15 @@
+static keyword 
+static is a non access modifier.
+static variable are used for memory management.
+
+static vaibale can be used to refer to the common property or value for all objects for ex=school name.
+static can be used in
+1.class level varibale
+2.methods
+3.inner class
+4.block
+
+
+static cannot be used in
+1.outer class
+2.local varibale.

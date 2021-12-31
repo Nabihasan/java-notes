@@ -1,0 +1,4 @@
+periotory- In java queue is in interface but peority queue
+is in implement class of queue interface 
+through which we can perform operation in fifo manner 
+first in first out 

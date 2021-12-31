@@ -1,0 +1,3 @@
+command line argument 
+command line argument  is mainly used to pass arguments of main method array
+at that time to run a program by command prompt.

@@ -1,0 +1,12 @@
+exception
+exception are basically run time error that terminates our program abnormally or 
+
+second definition
+exception are free define scenario.
+
+third definition
+exception is parent class of all types of exception
+
+fouth definition
+execption is an object of a class which is through by jvm according to specified condition.
+ 

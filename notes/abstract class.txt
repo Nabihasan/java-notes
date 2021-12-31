@@ -1,0 +1,53 @@
+abstract class`
+class a which is declare with keyword abstract is known as abstract class
+or a class that contain atleast one method abstract (abstract method  means a method
+doesnt contain body we will  declare abstract that method with abstract keyword).
+we have to declare that class with abstract keyword.
+abstract class may have abstract as well as non abstract method.
+if any class will inherit abstract class then we have to override all the method of abstract class 
+in child class otherwise child class also considered as abstract class.
+"we cant create an obejct of abstract class but we can create reference variable of abstract class".
+
+program
+abstract class Rbi
+{
+	final void rules()
+	{
+		System.out.println("rules by rbi");
+	}
+	abstract void deposit();
+}
+class Sbi extends Rbi
+{
+	void deposit()
+	{
+		System.out.println("you can deposite in Sbi");
+	}
+}
+class Demo
+{
+	public static void main(String gg[])
+		{
+			//Rbi r=new Rbi();//error
+			Sbi s=new Sbi();
+			s.rules();
+			s.deposit();
+			Rbi r=new Sbi();//upcasting
+			r.rules();
+			r.deposit();
+		}
+}
+
+
+2.abstract class Demo
+{
+	static void show()
+	{
+		System.out.println("show is running");
+	}
+	abstract void display();
+	public static void main(String gg[])
+	{
+		Demo.show();
+	}
+}

@@ -1,0 +1,36 @@
+Collection 
+
+collection is a framework 
+framework means - set of predefined classes and interfaces.
+	
+collection is mainly used to deals with group of objects.
+
+collection is used to implement stack,queue,and linkedlist in java.
+
+collection is an interface.
+
+java.util package contain interfaces like collection,list,set,and map
+and classes like arraylist, linkedlist ,Stack
+
+commonly used methods of collection interface are 
+1.size();
+2.isEmpty();
+3.contains(java.lang.Object);
+3.iterator();
+4.toArray();
+5.add(E);
+6.
+
+
+
+traversing of collection-we can traverse  a collection object   in three ways
+
+1.by for each loop
+2.by Iterator interface- we can traverse any types of collection object in forward direction.
+commonly used method of Iterator are 1.hasNext();,2.next();,3.remove();
+3.ListIterator -mainly used to traverse list type of objects in forward as well as backword direction.
+commonly used method of ListIterator are 1.hasPrevious 2.hasNext(); 3.next 4.previous();
+5.nextIndex(); 6.previousIndex(); 7.remove();
+
+
+3.
